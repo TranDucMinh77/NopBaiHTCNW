@@ -1,0 +1,15 @@
+body{
+    background-color: orange;
+}
+
+.part_1{
+    text-align: left;
+}
+
+.part_2{
+    text-align: center;
+}
+
+.part_3{
+    text-align: right;
+}
