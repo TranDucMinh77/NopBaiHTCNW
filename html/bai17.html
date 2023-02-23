@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    a,
+    <div id="div1">
+        <form action="">
+            <h3>Survey form</h3>
+            <p>If tou are interested in purchasing one or more of our products, before ordering please complete some or all of the following survey for our marketing department. Answering any question is optional and all information will be kept strictly confidential. Thannk you very much for your time!</p>
+            <ol>
+                <li>
+                    <label for="fname">What is your name?</label><br>
+                    <input type="text" name="fname" id="fname">
+                </li>
+                <li>
+                    <label for="fdob">What is your date of birth?</label><br>
+                    <input type="date" name="fdob" id="fdob">
+                </li>
+                <li>
+                    <label for="faddress">What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?</label><br>
+                    <input type="text" name="faddress" id="faddress" size="50" style="height: 150px;">
+                </li>
+                <li>
+                    <label for="fmail">What is your email address?</label><br>
+                    <input type="email" name="fmail" id="fmail">
+                </li>
+                <li>
+                    <label for="fview">Have you viewed our online product catalog?</label><br>
+                    <input type="radio" name="fview" id="y">
+                    <label for="y">Yes</label>
+                    <input type="radio" name="fview" id="n">
+                    <label for="y">No</label>
+                </li>
+                <li>
+                    <p>If so, what product(s), beside the one you are ordering, might you be onterested in purchasing in the future? (check all that apply)</p><br>
+                    <input type="checkbox" name="box1" id="box1" value="VCR">
+                    <label for="box1">VCR</label><br>
+                    <input type="checkbox" name="box2" id="box2" value="Big Screen TV">
+                    <label for="box2">Big Screen TV</label><br>
+                    <input type="checkbox" name="box3" id="box3" value="Audio Equipment">
+                    <label for="box3">Audio Equipment</label><br>
+                    <input type="checkbox" name="box4" id="box4" value="Video Equipment">
+                    <label for="box4">Video Equipment</label><br>
+                    <input type="checkbox" name="box5" id="box5" value="Camera Equipment">
+                    <label for="box5">Camera Equipment</label><br>
+                    <input type="checkbox" name="box6" id="box6" value="Other">
+                    <label for="box6">Other</label>
+                    <input type="text" name="fother" id="fother">
+                </li>
+                <li>
+                    <p>Do you have any questions, comments or suggestions before proceeding to the Order Form?</p><br>
+                    <input type="text" name="fexCom" id="fexCom" size="50" style="height: 150px;">
+                </li>
+            </ol>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    b,
+    <div id="div2">
+        <form action="">
+            <label for="fbrowser"> Browser</label>
+            <select name="browser" id="fbrowser">
+                <option value="b1">Chrome</option>
+                <option value="b2">Firefox</option>
+                <option value="b3">Edge</option>
+                <option value="b4">Opera</option>
+            </select><br>
+            <label for="fUname">Username</label>
+            <input type="text" name="Uname" id="fUname"><br>
+            <label for="fencrypt">Encryption</label>
+            <select name="encrypt" id="fencrypt">
+                <option value="2048">2048 (High grade)</option>
+                <option value="1080">1080</option>
+                <option value="720">720</option>
+                <option value="480">480</option>
+                <option value="360">360</option>
+                <option value="240">240</option>
+                <option value="144">144 (Low grade)</option>
+            </select><br>
+            1<input type="range" min="1" max="100" value="50">100<br>
+            <input type="number" name="number" id="fnumber" value="50"><br>
+            <label for="fbday">Birthday</label>
+            <input type="date" name="bday" id="fbday"><br>
+            <label for="color">Select your favorite color</label>
+            <input type="color" name="color" id="fcolor"><br>
+            <label for="fbday2">Birthday (month and year)</label>
+            <input type="month" name="bday2" id="fbday2"><br>
+            <label for="fweek">select a week</label>
+            <input type="week" name="week" id="fweek"><br>
+            <label for="ftime">select a time</label>
+            <input type="time" name="time" id="ftime"><br>
+            <label for="bday3">Birthday (date and time)</label>
+            <input type="text" name="bday3" id="fbday3"><br>
+            <label for="fmail">Email</label>
+            <input type="email" name="mail" id="fmail"><br>
+            <label for="fggl">Search Google</label>
+            <input type="text" name="ggl" id="fggl"><br>
+            <label for="ftel">Telephone</label>
+            <input type="tel" name="tel" id="ftel"><br>
+            <label for="fhomepg">Add your homepage</label>
+            <input type="text" name="hmpg" id="fgomepg"><br>
+            <input type="submit"><br>
+            <p><b>Note: </b>The datalist tag is not supported in Safari or IE9 (and earlier).</p>
+        </form>
+    </div>
+</body>
+</html>

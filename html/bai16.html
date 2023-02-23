@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h3>Travel reservation form</h3>
+        <h6>*denotes mandotory</h6>
+        <label for="fname">Full name*:</label><br>
+        <input type="text" name="fname" id="fname"><br>
+        <label for="fmail">Email address*:</label><br>
+        <input type="email" name="fmail" id="fmail"><br>
+        <label for="fpackage">Select Tour Package*</label><br>
+        <select name="fpackage" id="fpackage">
+            <option value="fpack1">Solo</option>
+            <option value="fpack2">Family</option>
+            <option value="fpack3">Honneymoon</option>
+            <option value="fpack4">Luxurious</option>
+        </select><br>
+        <label for="fArDate">Arrival date*</label><br>
+        <input type="date" name="fArDate" id="fArDate"><br>
+        <label for="fguessNo">Number of persons*</label><br>
+        <input type="number" name="fguessNo" id="fguessNo"><br>
+        What would you want to avail?*<br>
+        <label for="opt1">Boarding</label>
+        <input type="checkbox" name="boarding" id="opt1"><br>
+        <label for="opt2">Fooding</label>
+        <input type="checkbox" name="fooding" id="opt2"><br>
+        <label for="opt3">Sight seeing</label>
+        <input type="checkbox" name="sightSeeing" id="opt3"><br>
+        <label for="fdiscount">Discount Coupon Code:</label><br>
+        <input type="text" name="fdiscount" id="fdiscount"><br>
+        <label for="fCon">Terms and conditions*</label><br>
+        <input type="radio" name="fCon" id="y" value="1">
+        <label for="y">I agree</label>
+        <input type="radio" name="fCon" id="n" value="0">
+        <label for="n">I disagree</label><br>
+        <input type="submit" name="fsubmit" id="fsubmit" value="Complete reservation">
+    </form>
+</body>
+</html>
